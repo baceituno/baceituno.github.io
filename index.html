@@ -83,18 +83,18 @@
       <b>  Robust Walking Motion Planning for Multilegged Robots </b>
       </font></br> 
       <font size="2">
-        I'm currently developing a Robust Multilegged Walking Motion Planning Framework along professors J. Grieco and G. Fernandez. Our goal is to generate both: free-gaits that adapt to the unevenness of the terrain and body motions that maximize the Contact Wrench Cone (CWC) stability margin. Generating robust motions even on very challenging terrains where a classis Zero Moment Point (ZMP) planner would fail.</br>  
+        I'm currently developing a Robust Multilegged Walking Motion Planning Framework along professors J. Grieco and G. Fernandez. Our goal is to generate both: free-gaits that adapt to the unevenness of the terrain and body motions that maximize the Contact Wrench Cone (CWC) stability margin. Generating robust motions even on very challenging terrains where a classis Zero Moment Point (ZMP) planner would fail.</br>  </br>  
 
-        Our approach divides the problem in two stages: a set of free-gait Mixed-Integer constraints within an optimization-based footstep planner and a Center o Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion, treating the CoM position as an uncertain variable in a ellipsoidal set.
+        Our approach divides the problem in two stages: a set of free-gait Mixed-Integer constraints within an optimization-based footstep planner and a Center o Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion, treating the CoM position as an uncertain variable in a ellipsoidal set.</br>  </br>  
       </font>
       </p>
 
       <p>
       <font size="3">
-        Generalized Mixed-Integer Multilegged Footstep Planning
+        <b> Generalized Mixed-Integer Multilegged Footstep Planning </b>
       </font></br> 
       <font size="2">
-        I worked in the development of a generalized footstep planner based on Mixed-Integer Convex Programming (MICP) for multilegged walking robots. Our approach treats the non-convex variables associated to obstacle avoidance, body orientation and plan length with Mixed-Integer constraints over convex segments, which makes the problem convex. Our implementation also considers kinematic reachability constraints based on the geometry of the robot, therefore making the planner generalizable to any multilegged robot, regardless of the number of legs. Our implementation is capable of generating average length plans on fractions of a second, using <i>on-board processing</i> technology.</br>  
+        I worked in the development of a generalized footstep planner based on Mixed-Integer Convex Programming (MICP) for multilegged walking robots. Our approach treats the non-convex variables associated to obstacle avoidance, body orientation and plan length with Mixed-Integer constraints over convex segments, which makes the problem convex. Our implementation also considers kinematic reachability constraints based on the geometry of the robot, therefore making the planner generalizable to any multilegged robot, regardless of the number of legs. Our implementation is capable of generating average length plans on fractions of a second, using <i>on-board processing</i> technology.</br>  </br>  
 
         Before this project, the entirety of successful optimization-based footstep planners were developed for humanoid robots and none existed for multilegged robots, mainly due to the non-convex nature of the leg reachable space and the geometry of the robot. This had the drawback that most of the existing multilegged planners were based on discrete search, which often dosen't consider the continuous elements of a 3D environment. This work represents, to our knowledge, the first successful implementation of an optimization-based footstep planner for multilegged robots.
       </font>
