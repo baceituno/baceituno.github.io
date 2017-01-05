@@ -64,30 +64,29 @@
     </div>
 
     <a name="about me"><h3>About me</h3></a>
-    <hr size="10" noshade>
-    </br>
+    <hr>
     <div class="body-text1">
       <p>
       <font size="3">
-    	I'm an Electronics Engineering undergraduate student at Universidad Simón Bolívar (USB). My research interests are in the areas of Robot Locomotion and Optimal Motion Planning. Specially in finding <b> optimal solutions from non-convex motion planning problems </b> when involving robots moving through uncertain and challenging environments with novel tools such as Mixed Integer Programming and Robust Optimization.</br> </br> 
+    	I'm an Electronics Engineering undergraduate student at Simon Bolivar University (USB). My research interests are in the areas of Robot Locomotion and Optimal Motion Planning. Specially in finding <b> optimal solutions from non-convex motion planning problems </b> when involving robots moving through uncertain and challenging environments with novel tools such as Mixed Integer Programming and Robust Optimization.</br> </br> 
 
     	I'm currently working as an Undergraduate Researcher in the USB Mechatronics Research Group along professors <i> J. Grieco</i>, <i> G. Fernandez</i> and <i> J. Cappelletto</i>, developing an optimization-based robust locomotion planning strategy for multilegged robots.</br> </br> 
 
-    	In the past I also worked as part of the UW Vision project developing a Underwater Robotics Perception Toolbox under the advice of professor Jose Cappelletto for large scale underwater 3D reconstructions, project done along the USB Experimental Ecology Laboratory.
+    	In the past, I also worked along prof. Jose Cappelletto as part of the UW Vision project developing an Underwater Robotics Perception Toolbox for large scale underwater 3D reconstructions. Project in collaboration with the USB Experimental Ecology Laboratory.
+      </br> </br>
       </font>
       </p>
     </div>
 
     <a name="research"><h3>Research</h3></a>
-    <hr size="10" noshade>
-    </br>
+    <hr>
     <div class="body-text1">
       <p>
       <font size="3">
       <b>  Robust Walking Motion Planning for Multilegged Robots </b>
       </font></br> </br> 
       <font size="3">
-        I'm currently developing a Robust Multilegged Walking Motion Planning Framework along professors J. Grieco and G. Fernandez with support from <a href="https://hongkai-dai.github.io"> Hongkai Dai </a>. Our goal is to generate both: free-gaits that adapt to the unevenness of the terrain and body motions that maximize the Contact Wrench Cone (CWC) stability margin. Generating robust motions even on very challenging terrains where a classis Zero Moment Point (ZMP) planner would fail.</br>  </br>  
+        I'm currently developing a Robust Multilegged Walking Motion Planning Framework along professors J. Grieco and G. Fernandez with support from <a href="https://hongkai-dai.github.io"> Hongkai Dai</a>. Our goal is to generate both: free-gaits that adapt to the unevenness of the terrain and body motions that maximize the Contact Wrench Cone (CWC) stability margin. Generating robust motions even on very challenging terrains where classic Zero Moment Point (ZMP) planners would fail.</br>  </br>  
 
         Our approach divides the problem in two stages: a set of free-gait Mixed-Integer constraints within an optimization-based footstep planner, and a Center of Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion, treating the CoM position as an uncertain variable in a ellipsoidal set, therefore making the bilinear relations in the problem into second-order cones.</br>  </br>  
       </font>
@@ -100,7 +99,7 @@
       <font size="3">
         I worked in the development of a generalized footstep planner based on Mixed-Integer Convex Programming (MICP) for multilegged walking robots. Our approach treats the non-convex variables associated to obstacle avoidance, body orientation and plan length with Mixed-Integer constraints over convex segments, which makes the problem convex. Our implementation also considers kinematic reachability constraints based on the geometry of the robot, therefore making the planner generalizable to any multilegged robot, regardless of the number of legs. Our implementation is capable of generating average length plans on fractions of a second, using <i>on-board processing</i> technology.</br>  </br>  
 
-        Before this project, the entirety of successful optimization-based footstep planners were developed for humanoid robots and none existed for multilegged robots, mainly due to the non-convex nature of the leg reachable space and the geometry of the robot. This had the drawback that most of the existing multilegged planners were based on discrete search, which often dosen't consider the continuous elements of a 3D environment. This work represents, to our knowledge, the first successful implementation of an optimization-based footstep planner for multilegged robots. </br> </br>
+        Before this project, the entirety of successful optimization-based footstep planners were developed for humanoid robots and none existed for multilegged robots, mainly due to the non-convex nature of the leg reachable space and the geometry of the robot. This had the drawback that most of the existing multilegged planners were based on discrete searches, which often don't consider the continuous elements of a 3D environment. This work represents, to our knowledge, the first successful implementation of an optimization-based footstep planner for multilegged robots. </br> </br>
       </font>
       </p>
 
@@ -109,31 +108,35 @@
         <b> 3D Reconstruction of Large Scale Underwater Structures for Complexity Analysis </b>
       </font></br> </br> 
       <font size="3">
-        Worked as a research assistant as part of the UW Vision project on the Mechatronics Research Group. I developed a Robot Perception Toolbox (Camera Calibration, Feature Extraction/Detection and Surface Reconstruction under OpenCV and PCL) to extract 3D models from large scale segments of coral reef from raw video footage of PNLR. Project done in cooperation with the Simon Bolivar University Experimental Ecology Laboratory.
+        Worked as an Undergraduate Research Assistant part of the UW Vision project on the USB Mechatronics Research Group. I developed a Robot Perception Toolbox (Camera Calibration, Feature Extraction/Detection and Surface Reconstruction under OpenCV and PCL) to extract 3D models from large scale segments of coral reef from raw video footage of PNLR. Project done in collaboration with the USB Experimental Ecology Laboratory.
+        </br> </br>
       </font>
       </p>
     </div>
 
 
-    <a name="Publications"><h3>Publications</h3></a></br> 
-    <hr size="10" noshade>
+    <a name="Publications"><h3>Publications</h3></a>
+    <hr>
     <div clas="publication-list">
     <ul>
       <li>
-      <font size="3">Robust Walking Motion Planning for Multilegged Robots on Challenging Terrain using Convex Optimization over Uncertainty Sets. <a href="https://github.com/baceituno/baceituno.github.io/raw/master/robust_plan_LD.mp4">[video]</a></font>
+      <font size="3">Robust Walking Motion Planning for Multilegged Robots on Challenging Terrain via Convex Optimization over Uncertainty Sets. <a href="https://github.com/baceituno/baceituno.github.io/raw/master/robust_plan_LD.mp4">[video]</a></font>
       </br> <strong>Bernardo Aceituno-C.</strong>, Jose Cappelletto, Juan C. Grieco, and Gerardo Fernandez-Lopez. </br>
-      <i> (Under preparation) </i></br> 
-      </li>
+      <i> (Under preparation) </i> 
+      </li></br>
+      
       <li>
       <font size="3">A Generalized Mixed-Integer Convex Program for Multilegged Footstep Planning on Uneven Terrain. <a href="https://arxiv.org/abs/1612.02109">[arXiv]</a> <a href="https://github.com/baceituno/LittleDog">[Source Code]</a></font></br>
       <strong>Bernardo Aceituno-C.</strong>, Jose Cappelletto, Juan C. Grieco, and Gerardo Fernandez-Lopez. </br>
       <i>Submitted (under review) </i>
+      </li></br>
+
       <li>
       <font size="3">A generalized method for multilegged locomotion planning on rough environments. <a href="https://www.researchgate.net/publication/312058691_A_generalized_method_for_multilegged_locomotion_planning_on_rough_environments">[pdf]</a> (spanish)</font></br>
       <strong>Bernardo Aceituno-C.</strong>, Jose Cappelletto, Juan C. Grieco. </br>
       <i>National Engineering School Research Workshop (JIFI-EAI), 2016. </i>
       </li>
-      </li>
+      
     </ul>
   </div>
 
