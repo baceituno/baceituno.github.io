@@ -83,7 +83,7 @@
     <div class="body-text1">
       <p>
       <font size="3">
-      <b>  Dynamically Aware Footstep and Multilegged Walking motion Optimization with Convex Optimization </b>
+      <b>  Dynamically Aware Simultaneous Contact and Non-Gaited Walking Motion Planning via Mixed Integer Convex Optimization </b>
       </font>
       </br>
       <font size="3">
@@ -91,13 +91,13 @@
       </font>
       </br> </br> 
       <font size="3">
-        I'm currently collaborating with <a href="https://hongkai-dai.github.io"> Hongkai Dai</a> in the development of a Multilegged Locomotion strategy based on Mixed-Integer Convex Optimization under the advise of professor G. Fernandez. Our goal is to formulate the walking motion and contact sequence planning problem as a single convex optimization problem. We are approaching the problem with Mixed-Integer Convex Optimization, Convex Difference of Bilinear terms, and Robust Optimizations. Our goal is to generate: footstep plans in complex 3D environments, gait sequences that adapt to the unevenness of the terrain, and body motions that are consistent with the multi-contact dynamics of the system.</br>  </br>   
+        I'm currently collaborating with <a href="https://hongkai-dai.github.io"> Hongkai Dai</a> and the <a href="https://old.iit.it/advr-labs/dynamic-legged-systems"> IIT-DLS </a> in the development of a Multilegged Locomotion strategy based on Mixed-Integer Convex Optimization under the advise of professor G. Fernandez. Our goal is to formulate the walking motion and contact sequence planning problem as a single convex optimization problem. We are approaching the problem with Mixed-Integer Convex Optimization and Robust Optimization, in order to integrate rough terrain and angular dynamics in the convex formulation. Our goal is to generate: footstep plans in complex 3D environments, gait sequences that adapt to the unevenness of the terrain, and body motions that are consistent with the multi-contact dynamics of the system within a single optimization problem.</br>  </br>   
       </font>
       </p>
 
       <p>
       <font size="3">
-      <b>  Robust Walking Motion Planning for Multilegged Robots on Rough Terrain </b>
+      <b>  Robust Non-Gaited Walking Motion Planning for Multilegged Robots on Rough Terrain via Convex Optimization </b>
       </font>
       </br>
       <font size="2">
@@ -107,7 +107,7 @@
       <font size="3">
         I collaborated with Hongkai Dai in the development of a Robust Multilegged Locomotion Planning Framework under the advise of professors J. Grieco and G. Fernandez. Our proposed strategy is able to generate both: <i> free-gaits </i> that adapt to the unevenness of the terrain and body motions that maximize the <i> Contact Wrench Cone </i> (CWC) stability margin. Generating robust motions even on very challenging terrains where classic Zero Moment Point (ZMP) planners would fail.</br>  </br>  
 
-        Our approach divides the problem in two stages: a set of Mixed-Integer constraints within an optimization-based footstep planner to generate free-gaits, and a Center of Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion, treating the CoM position as an uncertain variable in a ellipsoidal set, therefore turning the bilinear relations in the problem into second-order cones.</br>  </br>  
+        Our approach divides the problem in two stages: a set of Mixed-Integer constraints within an optimization-based footstep planner to generate free-gaits and footstep plans, and a Center of Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion. This second stage treats the CoM position as an uncertain variable in a ellipsoidal set, therefore turning the bilinear relations in the problem into second-order cones.</br>  </br>  
       </font>
       </p>
 
