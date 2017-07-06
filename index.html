@@ -130,7 +130,7 @@
       <font size="3">
         I collaborated with Hongkai Dai in the development of a Robust Multilegged Locomotion Planning Framework under the advise of professors J. Grieco and G. Fernandez. Our proposed strategy is able to generate both: <i> free-gaits </i> that adapt to the unevenness of the terrain and body motions that maximize the <i> Contact Wrench Cone </i> (CWC) stability margin. Generating robust motions even on very challenging terrains where classic Zero Moment Point (ZMP) planners would fail.</br>  </br>  
 
-        Our approach divides the problem in two stages: a set of Mixed-Integer constraints within an optimization-based footstep planner to generate free-gaits and footstep plans, and a Center of Mass (CoM) and Angular Momentum trajectory planner that maximizes the robustness of the motion. This second stage treats the CoM position as an uncertain variable in a ellipsoidal set, therefore turning the bilinear relations in the problem into second-order cones.</br>  </br>  
+        Our approach divides the problem in two stages: a Mixed-Integer Convex Optimization program to generate contact and gait sequences that adapt to the conditions of the terrain, and Convex Optimization program to find Center of Mass (CoM) and Angular Momentum trajectories that maximize the robustness of the motion. This second stage treats the CoM position as an uncertain variable in a ellipsoidal set, therefore turning the bilinear relations in the problem into second-order cones.</br>  </br>  
       </font>
       </p>
 
